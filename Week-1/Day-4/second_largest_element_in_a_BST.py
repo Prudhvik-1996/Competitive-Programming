@@ -2,6 +2,7 @@ def inorder(lst,x):
     if x==None: return None
     inorder(lst,x.right)
     lst.append(x.value)
+    if len(lst) >= 2: return None
     inorder(lst,x.left)
 
 def find_second_largest(root):
