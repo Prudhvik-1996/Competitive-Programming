@@ -1,6 +1,3 @@
-import unittest
-
-
 def can_two_movies_fill_flight(movie_lengths, flight_length):
 
     # Determine if two movie runtimes add up to the flight length
