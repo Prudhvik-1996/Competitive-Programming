@@ -1,5 +1,3 @@
-import unittest
-
 class Node:
 
 	def __init__(self,data,nextNode=None):
