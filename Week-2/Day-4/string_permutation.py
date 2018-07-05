@@ -1,6 +1,3 @@
-import unittest
-
-
 def get_permutations(string):
 
     # Generate all permutations of the input string
