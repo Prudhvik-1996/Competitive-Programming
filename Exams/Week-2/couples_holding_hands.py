@@ -5,17 +5,13 @@ def minimumSwapsCouples(lst):
     
 
     for seat, num in enumerate(lst):
-        # print seat, num
         couples[num//2].append(seat//2)
-        # print couples
-
+        
     adj = [[] for _ in range(n)]
     
     for seat1, seat2 in couples:
         adj[seat1].append(seat2)
         adj[seat2].append(seat1)
-
-    # print adj
 
     result = 0
     
