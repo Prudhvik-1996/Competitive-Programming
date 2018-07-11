@@ -1,4 +1,4 @@
-def find_duplicate(arr):
+def find_duplicate(list):
 
     # Find a number that appears more than once ... in O(n) time
 #     for i in range(0, len(arr)):
