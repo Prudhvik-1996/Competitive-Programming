@@ -11,7 +11,7 @@ def merge_lists(my_list, alices_list):
     if alices_list == []:
         return my_list
     
-    while i<len(my_list) and j<len(alices_list):
+    while i<len(my_list) or j<len(alices_list):
         if my_list[i] < alices_list[j]:
             l.append(my_list[i])
             i += 1
